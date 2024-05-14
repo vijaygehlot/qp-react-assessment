@@ -7,9 +7,9 @@ import store from './store';
 const App: React.FC = () => {
   return (
     <Provider store={store}>
-      <Container maxWidth="md">
-        <Typography variant="h3" gutterBottom>
-          Todo App
+      <Container maxWidth="md"  style={{margin:'5%'}}>
+        <Typography variant="h5" gutterBottom>
+          Todo App | manage your todos here..
         </Typography>
         <TaskList />
       </Container>
